@@ -2,20 +2,35 @@
 
 ## Empowering Game Development with Simplicity and Fun! 🎮
 
-MelonCanvas.js is a lightweight and intuitive JavaScript framework designed for creating beautiful canvas-based games with ease. With a minimalistic approach and a powerful set of features, it allows developers to focus on creativity and game mechanics without being bogged down by unnecessary complexity. Whether you're building a casual game or experimenting with more advanced features, MelonCanvas.js is here to help you bring your vision to life!
+MelonCanvas.js is a lightweight, fast, and flexible JavaScript framework designed to make canvas-based game development a breeze. Whether you're a beginner looking to quickly prototype an idea or an experienced developer aiming to build more advanced 2D games, MelonCanvas.js is here to help you focus on what really matters — your game mechanics and creativity.
 
-## 🚀 Features
+By simplifying common tasks like physics, collision detection, asset management, and event handling, this framework allows you to get started quickly without sacrificing the features you need to build complex and polished games.
 
-- Lightweight & Fast: A simple framework that’s quick to set up and easy to use, perfect for rapid game development.
-- Canvas Focus: Works directly with HTML5 canvas for rendering, making it ideal for 2D games, animations, and interactive graphics.
-- Modular Game Objects: Support for layering, physics, collisions, and custom events. Organize game elements in an efficient and flexible way.
-- Camera System: Includes panning, zooming, and camera targeting, giving you full control over your game view.
-- Asset Management: Simplified asset loading system for images, audio, and tilesets, with automatic management.
-- Physics: Basic physics support including gravity, velocity, and bounce, allowing for more dynamic interactions.
-- Collision Detection: Easy-to-use collision detection for objects, with options for bounce and response.
-- Event System: Global and object-specific event handling, making it easy to interact with your game and listen for specific triggers.
-- Tilemap Support: Draw tile-based maps using external tilesets, making it easy to create platformers or grid-based worlds.
+## 🚀 Key Features
 
-## 📦 Installation
+### 🌟 Lightweight & Fast
+MelonCanvas.js is designed to be simple and efficient. It’s quick to set up, runs smoothly, and comes with all the core features you need to create 2D games without unnecessary bloat.
 
-MelonCanvas.js is currently still in development, and is not yet ready for public release. However, you can follow the project on GitHub and check back for updates on its progress. We're working hard to bring you a powerful and user-friendly game development framework, so stay tuned for more information!
+### 🖼 Canvas Rendering
+Utilizes the HTML5 canvas API for rendering, making it perfect for 2D games, animations, interactive graphics, and visualizations. Easily create games with beautiful, pixel-perfect rendering.
+
+### 🏗 Modular Game Objects
+The engine supports layers, custom events, collisions, and physics, allowing you to organize and structure game objects in a flexible and scalable way. Add, remove, and update objects with ease.
+
+### 🎥 Camera System
+With the built-in camera system, you can easily implement panning, zooming, and target-following, giving you full control over the game view. Perfect for platformers, top-down games, and more!
+
+### 🎮 Asset Management
+Simplified asset loading and management for images, audio, and tilesets. Automatically handle assets and load them asynchronously, so you can keep your game running smoothly.
+
+### ⚖ Physics
+Support for gravity, velocity, and bounce to add realism and dynamic interactions to your game. Perfect for platformers, physics-based puzzles, or any game that requires object movement and interaction.
+
+### 🛡 Collision Detection
+Effortlessly detect collisions between game objects with support for axis-aligned bounding boxes (AABB). Objects can react to collisions in a variety of ways, including bouncing and position correction.
+
+### 🔔 Event System
+Global and object-specific event handling lets you respond to user inputs, timed events, and object interactions. Define custom events for your game objects and make your game world come to life.
+
+### 🏙 Tilemap Support
+Easily create tile-based maps using external tilesets. This feature makes it simple to build platformers, top-down adventure games, or any other grid-based game world.
