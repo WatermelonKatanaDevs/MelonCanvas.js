@@ -1,0 +1,13 @@
+{
+  "name": "meloncanvasjs",
+  "version": "0.0.1",
+  "description": "A lightweight, open source framework for HTML5 games.",
+  "scripts": {
+    "format": "prettier --write src/**/*.js"
+  },
+  "author": "colack",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  }
+}
