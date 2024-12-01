@@ -1,3 +1,16 @@
+import { AssetLoader } from "./core/AssetLoader";
+import { InputManager } from "./core/InputManager";
+import { PhysicsEngine } from "./core/PhysicsEngine";
+import { SoundManager } from "./core/SoundManager";
+import { LayeredTilemap, LayeredTilemapConfig } from "./rendering/LayeredTilemap";
+import { ShapeRenderer } from "./rendering/ShapeRenderer";
+import { Tilemap, TilemapConfig } from "./rendering/Tilemap";
+import { MathUtils } from "./utils/math-utils";
+
+import { Animation } from "./features/animation-system";
+import { Particle, ParticleEmitter } from "./features/particle-system";
+import { StateManager } from "./features/state-manager";
+
 export interface CameraConfig {
   target?: GameObject | null;
   bounds?: { x: number; y: number; width: number; height: number } | null;
@@ -181,11 +194,7 @@ export class CanvasGame {
     };
   }
 
-  enableCollision(
-    obj: GameObject,
-    obstacles: GameObject[],
-    { bounce = false }: CollisionConfig = {}
-  ): void {
+  enableCollision(obj: GameObject, obstacles: GameObject[], { bounce = false }: CollisionConfig = {}): void {
     const originalUpdate = obj.update || (() => {});
     obj.update = (delta) => {
       obstacles.forEach((obstacle) => {
